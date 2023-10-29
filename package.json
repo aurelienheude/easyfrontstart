@@ -1,0 +1,16 @@
+{
+  "name": "easyfrontstart",
+  "version": "1.0.0",
+  "description": "generateur d'architecture front-end SASS/HTML",
+  "scripts": {
+    "start": "node app.js",
+    "sass": "sass --watch sass/main.scss assets/css/style.css",
+    "build": "sass --style=compressed sass/main.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurelienheude/easyfrontstart"
+  },
+  "author": "Aurélien Heude <aurelienheudepro@gmail.com> (https://github.com/aurelienheude)",
+  "license": "MIT"
+}
